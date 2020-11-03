@@ -13,18 +13,18 @@
 
 // Reemplaza los guiones por la constante para que utilice ese numero de puerto
 // Sabes por que lo definimos como constante y no como variable ? 
-app.listen(____, () => console.log(`Server running in ${____} port`));
+//app.listen(____, () => console.log(`Server running in ${____} port`));
 
 // CONSIGNA 1
 // Ruta Raíz / Home
-app.get('/', _que_debemos_hacer_aqui_para_que_funcione_?_);
+//app.get('/', _que_debemos_hacer_aqui_para_que_funcione_?_);
 
 // CONSIGNA 2
 // Ruta /heroes
 // Consigna: enviar todo el array
-app.get(_nombre_de_ruta_, (_que_parametros_necesita_?_) => {
-  res.send(_donde_estan_los_datos_que_voy_a_enviar_?_);
-});
+//app.get(_nombre_de_ruta_, (_que_parametros_necesita_?_) => {
+//  res.send(_donde_estan_los_datos_que_voy_a_enviar_?_);
+//});
 
 // CONSIGNA 3
 // Aqui creas la ruta para devolver la pagina de los creditos
@@ -32,6 +32,6 @@ app.get(_nombre_de_ruta_, (_que_parametros_necesita_?_) => {
 
 
 // Ruta... ¿Pára qué sirve esto?
-app.get('*', (req, res) => {
-  res.status(404).send('404 not found. <br> ¡Houston, poseemos problemas!');
-});
+//app.get('*', (req, res) => {
+ // res.status(404).send('404 not found. <br> ¡Houston, poseemos problemas!');
+//});
